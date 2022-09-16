@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CommentsModal from '../components/CommentsModal';
 import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
 import Widgets from '../components/Widgets'
@@ -23,6 +24,7 @@ export default function Home({ newsResults, randomUsers }) {
         <Widgets newsResults={newsResults.articles} randomUsers={randomUsers.results} />
 
         {/* Modal */}
+        <CommentsModal />
       </main>
     </div>
   );
