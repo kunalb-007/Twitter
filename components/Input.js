@@ -87,7 +87,7 @@ export default function Input() {
               <div className="relative">
                 <XIcon
                   onClick={() => setSelectedFile(null)}
-                  className="h-7 text-black absolute cursor-pointer shadow-md shadow-white rounded-full"
+                  className="border border-white h-7 text-black absolute cursor-pointer m-1 shadow-md rounded-full"
                 />
                 <img
                   src={selectedFile}
@@ -97,7 +97,7 @@ export default function Input() {
             )}
 
             <div className="flex items-center justify-between pt-2.5">
-              {!loading && (
+              {!loading && ( 
                 <>
                   <div className="flex">
                     <div
