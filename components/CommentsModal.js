@@ -34,7 +34,7 @@ export default function CommentsModal() {
 
     setOpen(false);
     setInput("");
-    router.push(`posts/${postId}`);
+    router.push(`/posts/${postId}`);
   }
 
 
